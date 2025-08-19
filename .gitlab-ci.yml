@@ -1,0 +1,9 @@
+variables:
+  PYTHON_VERSION: "3.12"
+  POETRY_VERSION: "1.8.3"
+
+include:
+  - project: "sertiscorp/devops/gitlab-ci-templates"
+    ref: master
+    file:
+      - "python-boilerplate.yaml"

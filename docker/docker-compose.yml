@@ -1,0 +1,8 @@
+services:
+  model-serving:
+    image:  model-serving
+    build:
+      context: ../
+      dockerfile: docker/Dockerfile
+    ports:
+      - "50051:50051"

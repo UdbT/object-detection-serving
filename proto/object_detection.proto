@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package grpc.object_detection.v1;
+
+message ObjectDetectionRequest {
+  string req_id = 1;
+  bytes data = 2;
+}
+
+message DetectedObject {
+  repeated float bbox = 1;
+  float score = 2;
+  string label = 3;
+}
+
+message ObjectDetectionResponse {
+  string req_id = 1;
+  repeated DetectedObject objects = 2;
+}
+
+service ObjectDetection {
+  rpc Forward (ObjectDetectionRequest) returns (ObjectDetectionResponse);
+}
