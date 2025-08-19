@@ -1,9 +1,9 @@
-# Face Landmark Serving
+# Object Detection Serving
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
 <!-- TOC depthFrom:2 depthTo:3 -->
 
-- [Face Landmark Serving](#face-landmark-serving)
+- [Object Detection Serving](#face-landmark-serving)
   - [Documentation](#documentation)
   - [Installation](#installation)
     - [Initial setup](#initial-setup)
