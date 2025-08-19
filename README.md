@@ -42,6 +42,7 @@ make gitsetup
 #### DVC setup
 1. install dvc-gs `pip install dvc-gs==3.0.1`
 2. using `dvc pull` to pull both oneML package and model files (you must have GCS permissions for the bucket)
+    > export GOOGLE_APPLICATION_CREDENTIALS=<\key-path>
 
 ### Dependencies
 
